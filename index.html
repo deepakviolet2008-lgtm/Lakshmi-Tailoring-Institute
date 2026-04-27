@@ -1,0 +1,256 @@
+<html>
+<head>
+  <title>Lakshmi Tailoring Institute</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <style>
+    body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.welcome {
+  height: 100vh;
+  background: url('Screenshot 2026-04-26 004024.png') center/cover no-repeat;
+  border-radius: 60px;
+  position: relative;
+}
+
+.welcome h1{
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome p{
+    font-weight: 500;
+    padding: 40px;
+    font-size: large;
+    text-align: center;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.content h2{
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content p{
+    font-weight: 500;
+    font-size: larger;
+}
+
+/* FULL IMAGE */
+.full-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* SPLIT */
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.split h2{
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.split p{
+    font-weight: 500;
+    font-size: large;
+}
+
+.split .text, .split .image {
+  flex: 1;
+  padding: 20px;
+}
+
+.split img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.cta {
+  background: #111;
+  color: white;
+  text-align: left;
+}
+
+.cta spam{
+    font-weight: 700;
+}
+
+.cta p{
+    color: white;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  font-size: x-large;
+  font-family: cursive;
+  text-align: center;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.8s;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+  </style>
+</head>
+<body>
+
+<section class="welcome fade-in">
+  <div class="overlay">
+    <h1>Welcome to Lakshmi Tailoring Institute</h1>
+    <p>
+        Step into a world where every stitch tells a story and every design reflects
+        confidence. At Lakshmi Tailoring Institute, we proudly create a safe, supportive, and 
+        inspiring space exclusively for girls to learn, grow, and shine in the art of 
+        tailoring and fashion. Whether you dream of starting your own boutique, becoming 
+        a fashion designer, or simply learning a valuable life skill, we are here to guide 
+        you at every step. With expert training, hands-on practice, and a friendly environment, 
+        we help you transform your passion into a powerful profession.
+    </p>
+  </div>
+</section>
+
+<section class="content fade-in">
+  <h2>ABOUT</h2>
+  <p>
+    At Lakshmi Tailoring Institute, we believe that every girl has the potential to create 
+    something beautiful. Our institute is specially designed for women and girls who want
+    to explore their creativity, gain independence, and build a successful future in 
+    tailoring and fashion.
+  </p>
+  <p>
+    We focus not just on teaching stitching, but on building confidence, creativity, and 
+    self-reliance. Our experienced trainers provide personal attention to each student, 
+    ensuring that learning is easy, enjoyable, and effective.
+  </p>
+  <p>
+    From basic sewing skills to advanced fashion designing techniques, we offer a complete 
+    learning journey that prepares you for real-world opportunities—whether it's starting 
+    your own business or working in the fashion industry.
+  </p>
+</section>
+
+<section class="full-image fade-in">
+  <img src="Screenshot 2026-04-26 020018.png">
+</section>
+
+<section class="split fade-in">
+  <div class="text">
+    <h2>🎯 Why Choose Us?</h2>
+    <p>✔ Experienced and friendly trainer</p>
+    <p>✔ Practical hands-on training</p>
+    <p>✔ Affordable course fees</p>
+    <p>✔ Flexible class timings</p>
+    <p>✔ Certification after completion</p>
+    <p>✔ 100% skill-focused learning</p>
+  </div>
+  <div class="image">
+    <img src="Screenshot 2026-04-26 015627.png">
+  </div>
+</section>
+
+<section class="gallery fade-in">
+  <img src="taylor.jpg">
+  <img src="Screenshot 2026-04-26 004024.png">
+  <img src="stiching.jpg">
+</section>
+
+<section class="cta">
+  <h2>📞CONTACT:</h2>
+  <spam>📍Address:</spam><a href="https://www.google.com/maps/place/Lakshmi+Tailoring+Institute/@12.5213565,78.215518,17z/data=!4m16!1m9!3m8!1s0x3bac35df832a7e1b:0xd8e1bd7ee2010b0e!2sLakshmi+Tailoring+Institute!8m2!3d12.5213513!4d78.2155702!9m1!1b1!16s%2Fg%2F11z4q_l03m!3m5!1s0x3bac35df832a7e1b:0xd8e1bd7ee2010b0e!8m2!3d12.5213513!4d78.2155702!16s%2Fg%2F11z4q_l03m?entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank"><p>near canara bank, PTV Colony, Jakkappan Nagar, Krishnagiri, Tamil Nadu 635001</p></a>
+  <p><spam>📱 Phone:  </spam>9159442229, 9159442228</p>
+  <p><spam>📧Email:  </spam>Email@</p>
+</section>
+
+<footer>
+  <p>Start your journey in fashion and tailoring with us. Learn, create, and design your future!</p>
+</footer>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+const elements = document.querySelectorAll(".fade-in");
+
+elements.forEach((el, i) => {
+  gsap.fromTo(el, 
+    {
+      opacity: 0,
+      y: 80,
+      scale: 0.95
+    },
+    {
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      duration: 1.0,
+      ease: "power3.out",
+      delay: i * 0.1,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 85%",
+        toggleActions: "play none none reverse"
+      }
+    }
+  );
+});
+
+gsap.utils.toArray("img").forEach(img => {
+  gsap.to(img, {
+    y: -80,
+    scrollTrigger: {
+      trigger: img,
+      scrub: true
+    }
+  });
+});
+</script>
+</body>
+</html>
